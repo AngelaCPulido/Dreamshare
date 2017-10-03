@@ -21,51 +21,55 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/reticula.css"/>
 </head>
 <body>
-	<header> <!-- header -->
-			<figure class="logotipo">Dreamshare</figure><!-- logotipo -->
-			<nav class="menu"> <!-- menu  -->
-	  			<ul>
-	  				<li><a href="index.html" class="item1">Activities</a></li>
-	  				<li><a href="#Blog" class="item1">Blog</a></li>
-	  				<li><a href="#About" class="item2">About</a></li>	
-	  				<li><a href="#Contact" class="item2">Contact</a></li>	
-	  			</ul>
-  			</nav>
-	</header><!-- /header -->
+	<section id="portada" class="portada background"> <!-- Portada -->
+		<header id="header" class="header container" > <!-- header -->
+				<figure class="logotipo">Dreamshare</figure><!-- logotipo -->
+				<nav class="menu"> <!-- menu  -->
+		  			<ul>
+		  				<li><a href="index.html" title="Activities" class="item1">Activities</a></li>
+		  				<li><a href="#Blog" title="Blog" class="item1">Blog</a></li>
+		  				<li><a href="#About" title="About" class="item2">About</a></li>	
+		  				<li><a href="#Contact" title="Contact" class="item2">Contact</a></li>	
+		  			</ul>
+	  			</nav>
+		</header><!-- /header -->
+		<div id="portada1" class="container center">
+	  		<h1 class="titulo">Share your holiday dream</h1><!-- titulo -->
+	  		<h3 class="subtitle">And ﬁnd the perfect partner to fullﬁll it</h3><!-- slogan -->
+	  		<button class="button">Find your holiday partner</button><!-- boton -->
+  		</div> 
+	</section><!-- /portada -->
 	
-	<section id="portada" class="portada"><!-- Portada -->
-  		<h1 class="titulo">Share your holiday dream</h1><!-- titulo -->
-  		<h3 class="title-a">And ﬁnd the perfect partner to fullﬁll it</h3><!-- slogan -->
-  		<button>Find your holiday partner</button><!-- boton -->
-  	</section> <!-- /portada -->
-
-
-  	<section class="como-funciona"> <!-- como-funciona -->
+  	<section class="como-funciona container"> <!-- como-funciona -->
   		<h2 class="titulo-seccion">How Dreamshare works?</h2><!-- titulo -->
-  		<article class="pasos"><!-- paso1 -->
-  			<button>Step 1</button><!-- boton -->
-  			<img src="img/pasos1.png" alt="buscar">
-  			<h3>Sed leo enim,condimentum</h3> 
-  			<p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-  		</article> 	
-  		<article class="pasos"><!-- paso2 -->
-  			<button>Step 2</button><!-- boton -->
-  			<img src="img/pasos2.png" alt="viajar">
-  			<h3>Sed leo enim,condimentum</h3> 
-  			<p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-  		</article>
-  		<article class="pasos"><!-- paso3 -->
-  			<button>Step 3</button><!-- boton -->
-  			<img src="img/pasos3.png" alt="playa">
-  			<h3>Sed leo enim,condimentum</h3> 
-  			<p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-  		</article>  		
+		<div class="row between">
+			<article class="row-3 pasos-container"><!-- paso1 -->
+		  			<button class="button-small">Step 1</button><!-- boton -->
+		  			<img src="img/pasos1.png" alt="buscar">
+		  			<h3>Sed leo enim,condimentum</h3> 
+		  			<p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p> 			  		
+	  		</article> 	
+	  		<article class="row-3 pasos-container" ><!-- paso2 -->
+	  			<button class="button-small">Step 2</button><!-- boton -->
+	  			<img src="img/pasos2.png" alt="viajar">
+	  			<h3>Sed leo enim,condimentum</h3> 
+	  			<p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+	  		</article>
+	  		<article class="row-3 pasos-container"><!-- paso3 -->
+	  			<button class="button-small">Step 3</button><!-- boton -->
+	  			<img src="img/pasos3.png" alt="playa">
+	  			<h3>Sed leo enim,condimentum</h3> 
+	  			<p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+	  		</article> 
+		</div>
+ 		
   	</section> <!-- /como-funciona -->
 
 
-	<section class="partner"> <!-- partner -->
+	<section class="partner container"> <!-- partner -->
 		<h2 class="titulo-seccion">Meet a partner for your best holiday</h2><!-- titulo sección -->
 		<div class="partner-info"> <!-- partner-1 -->
 			<img src="img/partner1.png" class="parter-img" width="120" alt="avatar">
@@ -86,63 +90,66 @@
 			<p>Based in Chicago. I love playing tennis and loud music.</p>
 		</div>
 		<div class="partner-info"> <!-- partner-4 -->
-			<img src="img/partner4.png" class="partner-img" width="120" alt="avatar">
+			<img src="img/partner4.png" class="parter-img" width="120" alt="avatar">
 			<img src="img/avion.png" class="partner-icono" width="120" alt="icono4">
 			<h4>Bradley Hunter</h4>
 			<p>Based in Chicago. I love playing tennis and loud music.</p>
 		</div>
-		<button>See other partners</button><!-- boton -->
+		<button class="button-b">See other partners</button><!-- boton -->
 	</section> <!--/partner -->
 
-	<section class="actividades"> <!-- actividades -->
+	<section class="actividades container"> <!-- actividades -->
 		<h2 class="titulo-seccion">Discover holiday activity ideas</h2><!-- titulo sección -->
 		
 		<article class="actividades-article">
-			<img src="img/actividades1.png" class="parter-img" alt="actividades">
+			<img src="img/actividades1.png" alt="actividades">
 			<h3>Sports and activis</h3>
 		</article>
 
 		<article class="actividades-article">
-			<img src="img/actividades2.png" class="parter-img" alt="actividades">
+			<img src="img/actividades2.png" alt="actividades">
 			<h3>Sports and activis</h3>
 		</article>
 
 		<article class="actividades-article">
-			<img src="img/actividades3.png" class="parter-img" alt="actividades">
+			<img src="img/actividades3.png" alt="actividades">
 			<h3>Sports and activis</h3>
 		</article>
 
 		<article class="actividades-article">
-			<img src="img/actividades4.png" class="parter-img" alt="actividades">
+			<img src="img/actividades4.png" alt="actividades">
 			<h3>Sports and activis</h3>
 		</article>
 
-		<article class="actividades-article" alt="actividades" >			<img src="img/actividades5.png" class="parter-img" alt="actividades">
+		<article class="actividades-article">			<img src="img/actividades5.png" alt="actividades">
 			<h3>contenedor</h3>
 		</article>
 	</section> <!-- /actividades -->
 
-	<section class="create-holiday">
+	<section class="create-holiday container">
 		<h2 class="titulo-seccion">Crate your holiday activity</h2><!-- titulo sección -->
 		<p>Hi! What are your holiday interests?</p>
 		<form name="buscador" action="" method="POST">
 			<input type="search" name="busqueda" placeholder="Enter your insterests"><br>
-			<input type="submit" value="Search partners">
+			<input type="submit" value="Search partners" class="button">
 		</form><!-- create-holiday -->
 	</section> <!-- /create-holiday -->
 
 	<footer class="footer"> <!-- footer -->
-		<figure class="footer-logo">Dreamshare</figure>
-		<nav class="footer-menu"> <!-- menu  -->
-			<h4>Company</h4>
-	  		<ul>
-  				<li><a href="index.html" class="item1">Activities</a></li>
-  				<li><a href="#Blog" class="item1">Blog</a></li>
-  				<li><a href="#About" class="item2">About</a></li>	
-  				<li><a href="#Contact" class="item2">Contact</a></li>	
-	  		</ul>
-	  		<p>Design by: Ángela Carolina Pulido</p>
-	  	</nav>
+		<div class="container">
+			<figure class="footer-logo">Dreamshare</figure>
+			<nav class="footer-menu"> <!-- menu  -->
+				<h4>Company</h4>
+		  		<ul class="footer-menu-a">
+	  				<li><a href="index.html"  title="Activities" class="item1">Activities</a></li>
+	  				<li><a href="#Blog" title="Blog" class="item1">Blog</a></li>
+	  				<li><a href="#About" title="About" class="item2">About</a></li>	
+	  				<li><a href="#Contact" title="Contact" class="item2">Contact</a></li>	
+		  		</ul>
+		  		<p>Design by: Ángela Carolina Pulido</p>
+		  	</nav>
+		</div>
+
     </footer>  <!-- /footer -->
 
 </body>
