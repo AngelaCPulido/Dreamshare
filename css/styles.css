@@ -1,0 +1,65 @@
+/**{
+	border: 1px solid red;
+	margin: red;
+}
+*/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+p {
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+header{
+	background-color: #000000;
+	padding: 20px 0;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	width: 100%;
+}
+.logotipo {
+	font-size: 20px;
+	font-weight= bold;
+}
+
+.menu {
+	font-size: 20px;	
+  	right: 0;
+ }
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.titulo-seccion {
+  font-size: 22px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #565656;
+}
+
+.pasos {
+  width: 300px;
+}
+
+.partner-icono {
+	background-color: black;
+	width: 16px;
+}
+
+
+.footer-menu {
+	font-size: 14px;
+	color: #a9a9a9;  	
+ }
+
+.footer-logo {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff6762;  	
+ }
