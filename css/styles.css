@@ -1,7 +1,7 @@
-/**{
+*{
 	border: 1px solid red;
 	margin: red;
-}*/
+}
 
 /*generales*/
 
@@ -164,13 +164,6 @@ header{
 	border-radius: 50%;
 }
 
-
-.pasos-container {
-	margin: 0;
-	width: 300px;
-	margin-right: 20px;	  		
-}
-
 .partner-icono {
 	background-color: black;
 	width: 16px;
@@ -178,7 +171,24 @@ header{
 	padding: 8px;
 }
 
+.pasos-img{
+	border-radius: 4px;
+	max-width: 236px;
+}
+
+.pasos-container {
+	max-width: 236px;	
+}
+
+/*
+
+
+
+
 .como-funciona {
 	margin-top: 2em;
 	text-align: center;
 }
+*/
+
+
