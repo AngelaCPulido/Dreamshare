@@ -171,13 +171,41 @@ header{
 	padding: 8px;
 }
 
-.pasos-img{
-	border-radius: 4px;
-	max-width: 236px;
-}
+
 
 .pasos-container {
-	max-width: 236px;	
+	max-width: 236px;
+	max-height: 398px;
+	border-radius: 4px;
+	text-align: left;
+	color: white;
+	padding: 10px;
+	
+}
+
+.pasos-texto{
+	margin-top: 200px;	
+}
+
+
+.pasos-1{
+	background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+  url(../img/pasos1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pasos-2{
+	background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+  url(../img/pasos2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pasos-3{
+	background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+  url(../img/pasos3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*
