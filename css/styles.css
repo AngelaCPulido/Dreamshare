@@ -15,10 +15,6 @@
 	  font-family: "Roboto";
 	}	
 
-	.grisclaro{
-		color: #666666;
-	}
-
 	header{
 		padding: 20px 0;
 		box-sizing: border-box;
@@ -31,6 +27,8 @@
 		font-family: 'Montserrat';
 		color: #333333;
 	}
+
+
 /****************************}generales****************/
 
 /****************************tipografia{****************/
@@ -56,6 +54,13 @@
 		font-family: 'Roboto', sans-serif;
 		font-size: 24px;
 		font-weight: 300;
+		text-align: center;
+	}
+
+	.descripcion{
+		font-family: Roboto;
+		font-size: 14px;
+		color: #666666;
 		text-align: center;
 	}
 /****************************}tipografia****************/
@@ -236,19 +241,22 @@
     	background-color: #1cd7ad; 
 	}
 
-	.amarillo{
+	.amarillo {
 		background-color: #ffa507;
 	}
 
-	.azul{
+	.azul {
 		background-color: #4e73db;
 	}
 
-	.partner-info{
+	.partner-info {
 		position: relative;
 		max-width: 200px;
-		max-height: 250px;
-		margin:0;		 
+		max-height: 250px;		 
+	}
+
+	.partners-button{
+		margin:5px;
 	}
 /****************************}partner****************************/
 
