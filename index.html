@@ -65,7 +65,7 @@
   	</section> <!-- /como-funciona -->
 
 
-	<section class="partner container"> <!-- partner -->
+	<section class="container"> <!-- partner -->
 		<h2 class="titulo-seccion">Meet a partner for your best holiday</h2><!-- titulo sección -->
 		<div class="row between">
 			<article class="partner-info center"> <!-- partner-1 -->
@@ -99,55 +99,44 @@
 		</div>		
 	</section> <!--/partner -->
 
-	<section class="actividades container"> <!-- actividades -->
+	<section class="container"> <!-- actividades -->
 		<h2 class="titulo-seccion">Discover holiday activity ideas</h2><!-- titulo sección -->
-		
-		<article class="actividades-article">
-			<img src="img/actividades1.png" alt="actividades">
-			<h3>Sports and activis</h3>
-		</article>
-
-		<article class="actividades-article">
-			<img src="img/actividades2.png" alt="actividades">
-			<h3>Sports and activis</h3>
-		</article>
-
-		<article class="actividades-article">
-			<img src="img/actividades3.png" alt="actividades">
-			<h3>Sports and activis</h3>
-		</article>
-
-		<article class="actividades-article">
-			<img src="img/actividades4.png" alt="actividades">
-			<h3>Sports and activis</h3>
-		</article>
-
-		<article class="actividades-article">			<img src="img/actividades5.png" alt="actividades">
-			<h3>contenedor</h3>
-		</article>
+		<ul class="row between actividades-article">
+			<li class="actividades-1"><a href="#Sports" title="Sports">Sports and activis</a></li>
+			<li class="actividades-2"><a href="#Actividad2" title="actividad-2">Actividad 2</a></li>
+			<li class="actividades-3"><a href="#Actividade3" title="actividad-3">Actividad 3</a></li>
+			<li class="actividades-4"><a href="#Actividade4" title="actividad-4">Actividad 4</a></li>
+			<li class="actividades-5"><a href="#Actividade5" title="actividad-5">Actividad 5</a></li>
+		</ul>
 	</section> <!-- /actividades -->
 
-	<section class="create-holiday container">
-		<h2 class="titulo-seccion">Crate your holiday activity</h2><!-- titulo sección -->
-		<p>Hi! What are your holiday interests?</p>
-		<form name="buscador" action="" method="POST">
-			<input type="search" name="busqueda" placeholder="Enter your insterests"><br>
-			<input type="submit" value="Search partners" class="button">
-		</form><!-- create-holiday -->
+	<section class="container"> <!-- create-holiday -->
+		<div class="row center">
+			<h2 class="titulo-seccion col-10">Create your holiday activity</h2><!-- titulo sección -->
+			<p class="descripcion col-10">Hi! What are your holiday interests?</p>
+		</div>
+
+		<form name="buscador" class="row center"  action="" method="POST">
+					<input type="search" name="busqueda" class="buscador-input col-3" placeholder="Enter your insterests"><br>
+					<input type="submit" value="Search partners" class="button col-3">
+		</form>				
 	</section> <!-- /create-holiday -->
 
 	<footer class="footer"> <!-- footer -->
 		<div class="container">
-			<figure class="footer-logo">Dreamshare</figure>
-			<nav class="footer-menu"> <!-- menu  -->
-				<h4>Company</h4>
-		  		<ul class="footer-menu-a">
-	  				<li><a href="index.html"  title="Activities" class="item1">Activities</a></li>
-	  				<li><a href="#Blog" title="Blog" class="item1">Blog</a></li>
-	  				<li><a href="#About" title="About" class="item2">About</a></li>	
-	  				<li><a href="#Contact" title="Contact" class="item2">Contact</a></li>	
-		  		</ul>
-		  		<p>Design by: Ángela Carolina Pulido</p>
+			<nav class="row between"> <!-- menu  -->
+				<figure class="footer-logo">Dreamshare</figure>
+				<div >
+					<h4>Company</h4>
+					<ul class="footer-menu-a">
+		  				<li><a href="index.html"  title="Activities" class="item1">Activities</a></li>
+		  				<li><a href="#Blog" title="Blog" class="item1">Blog</a></li>
+		  				<li><a href="#About" title="About" class="item2">About</a></li>	
+		  				<li><a href="#Contact" title="Contact" class="item2">Contact</a></li>	
+			  		</ul>
+				</div>
+				<h4>Partners</h4>		
+		  		<p class="design descripcion">Design by: <br> Ángela Carolina Pulido</p>
 		  	</nav>
 		</div>
     </footer>  <!-- /footer -->

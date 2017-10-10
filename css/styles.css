@@ -1,7 +1,7 @@
-*{
+/**{
 	border: 1px solid red;
 	margin: red;
-}
+}*/
 
 /****************************generales{****************/
 
@@ -26,6 +26,14 @@
 	h4{
 		font-family: 'Montserrat';
 		color: #333333;
+	}
+
+	ul {
+	    list-style: none;
+	    margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
 	}
 
 
@@ -150,20 +158,27 @@
 	.footer {
 	  	border-top: 3px solid #ff4e50;
 	  	width: 100%;
+	  	margin-bottom: 20px;
+	  	margin-top: 20px;
 	 }	
 
 		.footer-menu {
 			font-size: 14px;
 			color: #a9a9a9;
-		 }		
+			text-align: left;			
+		 }	
 
 		.footer-menu-a a{
 			text-decoration: none;
-			color: red;
-		 }	
+			color: #666666;
+		}	
 
 		.footer-menu-a li {
 			text-decoration: none;
+			font-size: 14px;
+			margin-bottom:3px;
+			text-align: left;
+   			padding-left: 0;    			
 		 }		
 
 		.footer-logo {
@@ -171,6 +186,11 @@
 			font-weight: bold;
 			color: #ff6762; 
 			text-align: left;  	
+		 }
+
+		 .design{
+		 	text-align: left;		 	
+		 	font-style: italic;	 	
 		 }	
 /****************************}footer****************************/
 
@@ -212,7 +232,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
 /****************************}como-funciona****************************/
 
 /****************************partner{****************************/
@@ -260,6 +279,91 @@
 	}
 /****************************}partner****************************/
 
+/****************************actividades{****************************/
+
+	.actividades-article {
+	  font-size: 20px;	  	
+	  right: 0;	  
+	  font-family: "Montserrat";
+	  text-align: center;	  	 
+	}
+
+	.actividades-article li {
+	  	border-radius: 4px;	    
+	  	font-weight: 700;
+	 	height: 250px;
+	 	margin-bottom: 16px;	 	
+	 	text-decoration: none;
+	 	color: white;
+	 	display: inline-block;	
+	 	line-height: 250px	 			 	
+	}
+
+	.actividades-article a {
+		text-decoration: none;		
+		color: white;			
+	}
+	
+
+	.actividades-1{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 250px;						
+	}
+
+	.actividades-2{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades2.png);
+		background-size: cover;
+		width: 250px;		
+	}	
+	
+	.actividades-3{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades3.png);
+		background-size: cover;
+		width: 250px;		
+	}
+
+	
+	.actividades-4{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades4.png);
+		background-size: cover;
+		width: 250px;
+	}	
+
+	.actividades-5{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades5.png);
+		width: 510px;
+	}	
+/****************************}actividades****************************/
 
 
+/****************************buscador{***************************/
+	.buscador{		
+		text-align: center;								
+	}
 
+	.buscador-input{		
+		border-radius: 4px;
+	    border-style: solid;
+	    border-width: 1px;
+	    border-color: #cccccc;
+	    background-color: #ffffff;  
+    	padding-left: 16px;
+   		font-size: 14px;
+   		font-weight: 300;
+   		text-align: left;   		
+   		margin-right: 20px;
+	}
+
+/****************************}buscador***************************/
