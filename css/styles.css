@@ -3,177 +3,175 @@
 	margin: red;
 }
 
-/*generales*/
+/****************************generales{****************/
 
-body {
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Montserrat', sans-serif;
-	margin: 0;
-}
-p {
-  font-size: 14px;
-  font-family: "Roboto";
-}
+	body {
+		font-family: 'Roboto', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+		margin: 0;
+	}
+	p {
+	  font-size: 14px;
+	  font-family: "Roboto";
+	}	
 
-header{
-	padding: 20px 0;
-	box-sizing: border-box;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	width: 100%;	
-}
+	.grisclaro{
+		color: #666666;
+	}
 
-/*botones*/
-.button {
-  border-radius: 20px;
-  border: none;
-  color: white;
-  padding: 8px 24px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 18px;
-  background: #ff4e50;
- }
+	header{
+		padding: 20px 0;
+		box-sizing: border-box;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		width: 100%;	
+	}
 
-.button-small {
-  border-radius: 20px;
-  border: none;
-  color: white;
-  padding: 8px 24px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 12px;
-  background: #ff4e50;
- }
+	h4{
+		font-family: 'Montserrat';
+		color: #333333;
+	}
+/****************************}generales****************/
 
- .button-b {
-  border-radius: 20px;
-  border: 3px solid #ff4e50;
-  color: #ff4e50;
-  padding: 8px 24px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 14px;  
-  background: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
- }
+/****************************tipografia{****************/
+	.titulo {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 52px;
+		margin-bottom: 0;
+		margin-top: 175px;
+		text-transform: uppercase;
+		text-align: center;
+	}	
 
-/*contenedor*/
-/*.contenedor {
-  width: 975px;
-  margin: auto;
-  position: relative;
-}
-*/
-/*portada*/
-.background {
-  background-image: url(../img/portada.png);
-  background-size: cover;  
-}
+	.titulo-seccion {
+		font-size: 22px;
+		font-family: "Montserrat";
+		font-weight: 700;
+		color: #565656;
+		text-align: center;
+	}	
 
-.portada {
-  color: white;
-  padding: 20px;
-  height: 700px;
-}
+	.subtitle {
+		margin-top: 0;
+		font-family: 'Roboto', sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		text-align: center;
+	}
+/****************************}tipografia****************/
 
-.logotipo {
-	font-size: 20px;
-	font-weight: bold;
-	display: inline-block;
- 	margin-left: 0;
-}
-
-.menu {
-  font-size: 20px;
-  display: inline-block;
-  position: absolute;
-  right: 0;
-}
-
-.menu li {
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-}
-
-
-/*footer*/
-.footer {
-  	border-top: 3px solid #ff4e50;
-  	width: 100%;
- }
-
-	.footer-menu {
-		font-size: 14px;
-		color: #a9a9a9;
+/******************botones{****************************/
+	.button {
+	  border-radius: 20px;
+	  border: none;
+	  color: white;
+	  padding: 8px 24px;
+	  cursor: pointer;
+	  text-decoration: none;
+	  font-size: 18px;
+	  background: #ff4e50;
 	 }	
 
-	.footer-menu-a a{
-		text-decoration: none;
-		color: red;
+	.button-small {
+	  border-radius: 20px;
+	  border: none;
+	  color: white;
+	  padding: 8px 24px;
+	  cursor: pointer;
+	  text-decoration: none;
+	  font-size: 12px;
+	  background: #ff4e50;
+	 }	
+
+	 .button-b {
+	  border-radius: 20px;
+	  border: 3px solid #ff4e50;
+	  color: #ff4e50;
+	  padding: 8px 24px;
+	  cursor: pointer;
+	  text-decoration: none;
+	  font-size: 14px;  
+	  background: #ffffff;
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 700;
 	 }
 
-	.footer-menu-a li {
-		text-decoration: none;
-	 }	
+	 .button-b:hover {
+		background-color: #ff4e50;
+		color: white;
+	 }
+/******************}botones****************************/
 
-	.footer-logo {
-		font-size: 16px;
+
+/****************************portada{****************************/
+	.background {
+	  background-image: url(../img/portada.png);
+	  background-size: cover;  
+	}	
+
+	.portada {
+	  color: white;
+	  padding: 20px;
+	  height: 700px;
+	}	
+
+	.logotipo {
+		font-size: 20px;
 		font-weight: bold;
-		color: #ff6762; 
-		text-align: left;  	
-	 }
+		display: inline-block;
+	 	margin-left: 0;
+	}	
 
- /*tipografia*/
+	.menu {
+	  font-size: 20px;
+	  display: inline-block;
+	  position: absolute;
+	  right: 0;
+	}	
 
-.titulo {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 52px;
-	margin-bottom: 0;
-	margin-top: 175px;
-	text-transform: uppercase;
-	text-align: center;
-}
+	.menu li {
+	  display: inline-block;
+	  margin-left: 30px;
+	}	
 
-.titulo-seccion {
-	font-size: 22px;
-	font-family: "Montserrat";
-	font-weight: 700;
-	color: #565656;
-	text-align: center;
-}
-
-.subtitle {
-	margin-top: 0;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 300;
-	text-align: center;
-}
+	.menu a {
+	  color: white;
+	  text-decoration: none;
+	}
+/****************************}portada****************************/
 
 
-/*secciones*/
+/****************************footer{****************************/
+	.footer {
+	  	border-top: 3px solid #ff4e50;
+	  	width: 100%;
+	 }	
 
-.parter-img {
-	border-radius: 50%;
-}
+		.footer-menu {
+			font-size: 14px;
+			color: #a9a9a9;
+		 }		
 
-.partner-icono {
-	background-color: black;
-	width: 16px;
-	border-radius: 50%;
-	padding: 8px;
-}
+		.footer-menu-a a{
+			text-decoration: none;
+			color: red;
+		 }	
+
+		.footer-menu-a li {
+			text-decoration: none;
+		 }		
+
+		.footer-logo {
+			font-size: 16px;
+			font-weight: bold;
+			color: #ff6762; 
+			text-align: left;  	
+		 }	
+/****************************}footer****************************/
 
 
-
-.pasos-container {
+/****************************como-funciona{****************************/
+	.pasos-container {
 	max-width: 236px;
 	max-height: 398px;
 	border-radius: 4px;
@@ -181,42 +179,79 @@ header{
 	color: white;
 	padding: 10px;
 	
-}
+	}
 
-.pasos-texto{
-	margin-top: 200px;	
-}
+	.pasos-texto{
+		margin-top: 200px;	
+	}
+
+	.pasos-1{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/pasos1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}	
+
+	.pasos-2{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/pasos2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pasos-3{
+		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
+		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),url(../img/pasos3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+/****************************}como-funciona****************************/
+
+/****************************partner{****************************/
+	.parter-img {
+		border-radius: 50%;
+	}
+
+	.partner-icono {
+		position: absolute;
+		background-color: black;
+		padding: 5px;
+ 		border-radius: 50%;
+ 		border-style: solid;
+		border-width: 2px;
+ 		border-color: #ffffff;
+ 		width: 16px;
+ 		top:100px;
+ 		left: 125px;				
+	}
+
+	.rojo {    	
+    	background-color: #ff4e50;
+   	}
+
+	.verde {
+    	background-color: #1cd7ad; 
+	}
+
+	.amarillo{
+		background-color: #ffa507;
+	}
+
+	.azul{
+		background-color: #4e73db;
+	}
+
+	.partner-info{
+		position: relative;
+		max-width: 200px;
+		max-height: 250px;
+		margin:0;		 
+	}
+/****************************}partner****************************/
 
 
-.pasos-1{
-	background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
-  url(../img/pasos1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.pasos-2{
-	background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
-  url(../img/pasos2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.pasos-3{
-	background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
-  url(../img/pasos3.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*
-
-
-
-
-.como-funciona {
-	margin-top: 2em;
-	text-align: center;
-}
-*/
 
 
