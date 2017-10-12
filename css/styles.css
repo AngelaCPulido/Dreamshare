@@ -1,14 +1,8 @@
-*{
+/**{
 	border: 1px solid red;
 	margin: red;
-}
+}*/
 
-@media (min-width: 320px){
-	p {
-	  font-size: 14px;
-	  font-family: "Roboto";
-	}	
-}
 
 /****************************generales{****************/
 
@@ -208,6 +202,7 @@
 		max-width: 300px;		
 		color: white;
 		padding: 10px;
+		margin-bottom: 2%;
 	}	
 
 	.pasos-2{
@@ -220,6 +215,7 @@
 		max-width: 300px;		
 		color: white;
 		padding: 10px;
+		margin-bottom: 2%;
 	}
 	.pasos-3{
 		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
@@ -231,6 +227,7 @@
 		max-width: 300px;		
 		color: white;
 		padding: 10px;
+		margin-bottom: 2%;
 	}
 /****************************}como-funciona****************************/
 
@@ -281,27 +278,26 @@
 
 /****************************actividades{****************************/
 
-	.actividades-article {
+	.actividades {
 	  font-size: 20px;	  	
 	  right: 0;	  
 	  font-family: "Montserrat";
-	  text-align: center;	  	 
+	  text-align: center;	  	  	 
 	}
 
-	.actividades-article li {
+	.actividades li {
 	  	border-radius: 4px;	    
-	  	font-weight: 700;
-	 	height: 250px;
-	 	margin-bottom: 16px;	 	
+	  	font-weight: 700;	 	
+	 	margin-bottom: 1%;	 	
 	 	text-decoration: none;
-	 	color: white;
-	 	display: inline-block;	
-	 	line-height: 250px	 			 	
+	 	color: white;	 		 	
+	 	line-height: 310px;
+	 	margin-left: 2%; 		 			
 	}
 
-	.actividades-article a {
+	.actividades a {
 		text-decoration: none;		
-		color: white;			
+		color: white;					
 	}
 	
 
@@ -311,15 +307,15 @@
 		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades1.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 250px;						
+		width: 300px;
 	}
 
 	.actividades-2{
 		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
 		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
 		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades2.png);
-		background-size: cover;
-		width: 250px;		
+		background-size: cover;	
+		width: 300px;
 	}	
 	
 	.actividades-3{
@@ -327,7 +323,7 @@
 		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
 		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades3.png);
 		background-size: cover;
-		width: 250px;		
+		width: 300px;		
 	}
 
 	
@@ -336,14 +332,14 @@
 		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
 		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades4.png);
 		background-size: cover;
-		width: 250px;
+		width: 300px;
 	}	
 
 	.actividades-5{
 		background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
 		background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5));
 		background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)), url(../img/actividades5.png);
-		width: 510px;
+		width: 630px;
 	}	
 /****************************}actividades****************************/
 

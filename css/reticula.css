@@ -1,13 +1,14 @@
-/*@media (min-width: 1024px) {
+@media (min-width: 1024px) {
   
   .container {
     margin: auto;
     padding-right: 2%;
     padding-left: 2%;
-    max-width: 60%;
+    max-width: 1024px;
     position: relative;  
   }
 }
+
 
 @media (min-width: 1440px) {
   
@@ -15,12 +16,12 @@
     margin: auto;
     padding-right: 2%;
     padding-left: 2%;
-    max-width: 980px;
+    max-width: 1024px;
     position: relative;  
   }
 }
 
-@media (min-width: 320px) {
+/*@media (max-width: 320px) {
   
   .container {
     margin: auto;
@@ -34,6 +35,7 @@
     width: 100%;
   }
 
+    .col,
     .col-0,
     .col-1,
     .col-2,
@@ -55,21 +57,16 @@
       padding-right: 1%;
       padding-left: 1%;
       max-width: 100%;
+      margin-bottom: 2%;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+      align-items: center;
     }
 }*/
 
 /*Reticula*/
 
-@media (min-width: 1024px) {
-  
-  .container {
-    margin: auto;
-    padding-right: 2%;
-    padding-left: 2%;
-    max-width: 1024px;
-    position: relative;  
-  }
-}
 
 
 .row {
@@ -115,6 +112,7 @@
   -webkit-box-direction: reverse;
   flex-direction: column-reverse;
 }
+
 
 .col-0,
 .col-1,
