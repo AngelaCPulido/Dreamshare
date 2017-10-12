@@ -1,12 +1,66 @@
+@media (min-width: 1024px) {
+  
+  .container {
+    margin: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    max-width: 60%;
+    position: relative;  
+  }
+}
+
+@media (min-width: 1440px) {
+  
+  .container {
+    margin: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    max-width: 980px;
+    position: relative;  
+  }
+}
+
+@media (min-width: 320px) {
+  
+  .container {
+    margin: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    width: 100%;
+    position: relative;  
+  }
+
+  .row {
+    width: 100%;
+  }
+
+    .col-0,
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+      box-sizing: border-box;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      -webkit-box-flex: 0;
+      flex: 0 0 auto;
+      padding-right: 1%;
+      padding-left: 1%;
+      max-width: 100%;
+    }
+}
+
 /*Reticula*/
 
-.container {
-  margin: auto;
-  padding-right: 2%;
-  padding-left: 2%;
-  max-width: 60%;
-  position: relative;  
-}
+
 
 .row {
   box-sizing: border-box;
