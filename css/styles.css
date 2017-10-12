@@ -1,7 +1,14 @@
-/**{
+*{
 	border: 1px solid red;
 	margin: red;
-}*/
+}
+
+@media (min-width: 320px){
+	p {
+	  font-size: 14px;
+	  font-family: "Roboto";
+	}	
+}
 
 /****************************generales{****************/
 
